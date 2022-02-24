@@ -506,6 +506,9 @@ body{
 	.experience-container .experience-main{
 	  grid-template-columns: 1fr;
 	}
+	.experience-container .experience-main .image-wrap{
+		top: 30px
+	}
 	.experience-container .experience-main .main-left{
 		order: 1;
 	}
@@ -515,11 +518,16 @@ body{
 		height: 100%;
 		max-width: 100%;
 	}
+	.experience-container .experience-main .main-right {
+		width: 95%;
+        margin: 0 auto;
+
+	}
 	.experience-container .experience-main .main-right h2{
 		font-size: 26px;
 	}
 	.experience-container .experience-main .main-right .btn-more{
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 }
 @media screen and (max-width: 425px){
